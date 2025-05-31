@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JioSaavn Downloader</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <h1>JioSaavn Downloader</h1>
+    <form id="searchForm">
+        <input type="text" id="query" placeholder="Pesquisar música..." required />
+        <button type="submit">Pesquisar</button>
+    </form>
+
+    <section id="results"></section>
+
+    <section id="favoritesSection">
+        <h2>Favoritos</h2>
+        <ul id="favoritesList"></ul>
+    </section>
+
+    <section id="historySection">
+        <h2>Histórico</h2>
+        <ul id="historyList"></ul>
+    </section>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
